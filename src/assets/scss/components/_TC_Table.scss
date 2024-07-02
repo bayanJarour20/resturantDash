@@ -1,0 +1,63 @@
+.TC_Table {
+    thead tr {
+        background-color: $TC_dark_blue !important;
+        color: #fff !important;
+        border-bottom: solid 2px $TC_yellow;
+        border-top: solid 2px $TC_dark_blue;
+        border-radius: 10%;
+    }
+    thead tr th {
+        border-left: solid 2px $TC_yellow;
+        color: #fff !important;
+        text-align: center !important;
+        padding-bottom: 4px !important;
+        padding-top: 17px !important;  
+    }
+    thead tr th i {
+        font-size: 14px !important;
+    }
+    thead th span {
+        color: #fff;
+    }
+    thead th i {
+        color: #fff !important;
+    }
+    tr {
+        td {
+            text-align: center;
+            color: #000;
+        }
+    }
+    tr:nth-child(even) {
+        background-color: #f1f1f1;
+    }
+    tr:nth-child(odd) {
+        background-color: #dadada;
+    }
+}
+.v-pagination__navigation {
+    border-radius: 50% !important;
+    background-color: $TC_dark_blue !important;
+    border: 1px solid #fff !important;
+    width: 22px !important;
+    height: 22px !important;
+    padding: 16px !important;
+}
+.v-pagination__navigation i {
+    color: #fff !important;
+}
+.v-application .text-start {
+    text-align: center !important;
+}
+.v-input__control {
+    color: $TC_yellow !important ;
+}
+.v-select__slot label {
+    color: $TC_yellow !important ;
+}
+.v-input__icon i {
+    color: $TC_yellow !important ;
+}
+.v-list {
+    color: $TC_yellow !important ;
+}

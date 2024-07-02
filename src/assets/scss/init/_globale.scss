@@ -1,0 +1,45 @@
+*{
+    font-family: "SST ARABIC BOLD" !important;
+}
+
+@each $name, $color in $colors_list {
+    .text_#{$name} {
+        color: $color!important;
+    }
+    .border_color_#{$name} {
+        border-color: $color!important;
+    }
+    .border_y_#{$name} {
+        border-top: solid 8px $color!important;
+        border-bottom: solid 8px $color!important;
+    }
+    .border_t_#{$name} {
+        border-top: solid 8px $color!important;
+    }
+    .border_b_#{$name} {
+        border-bottom: solid 8px $color!important;
+    }
+}
+a {
+    text-decoration: none!important
+}
+.custom-devider-aside {
+    height: 2px;
+    width: calc(100% - 32px);
+    margin: 16px;
+}
+.v-input__slot{
+    border: solid 1px!important;
+    border-color:$TC_yellow!important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25)!important;
+}
+.v-input--switch {
+    .v-input__slot{
+        background: transparent!important;
+        border: none!important;
+        box-shadow: none!important;
+    }
+}
+.h-account{
+    white-space: nowrap;
+}
